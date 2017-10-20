@@ -27,5 +27,5 @@
     "install-server": "node scripts/install.js"
   },
   "author": "Gamble.SH",
-  "license": "ISC"
+  "license": "MIT"
 }
