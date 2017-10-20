@@ -1,0 +1,9 @@
+language: node_js
+services:
+  - mongodb
+install:
+  - npm install
+  - npm run install-server
+cache:
+  directories:
+    - "node_modules"

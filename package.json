@@ -1,0 +1,31 @@
+{
+  "name": "lbam-server",
+  "version": "1.0.0",
+  "description": "Lightweight Bitcoin Address Management server for web apps",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^3.2.0",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "date-arithmetic": "^3.1.0",
+    "express": "^4.16.1",
+    "fs-extra": "^4.0.2",
+    "mocha": "^4.0.1",
+    "mongodb": "^2.2.31",
+    "mongodb-backup": "^1.6.9",
+    "mongodb-restore": "^1.6.2",
+    "node-schedule": "^1.2.5",
+    "request": "^2.83.0",
+    "time-stamp": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "install-server": "node scripts/install.js"
+  },
+  "author": "Gamble.SH",
+  "license": "ISC"
+}
