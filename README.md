@@ -1,5 +1,8 @@
 # Lightweight Bitcoin Address Management (LBAM) for web applications
 
+[![license](https://img.shields.io/github/license/jkswoods/lightweight-bitcoin-address-manager.svg)]()
+[![Travis](https://img.shields.io/travis/jkswoods/lightweight-bitcoin-address-manager.svg)]()
+
 The aim of this project is to provide a means of generating and storing Bitcoin key pairs as securely as possible for general-purpose Web applications.
 
 Now, just looking at the code you may think to yourself "how is this secure?" - to that I say, it isn't, at least not by itself. Let me explain how this project is meant to work...
