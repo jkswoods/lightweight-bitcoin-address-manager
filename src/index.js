@@ -48,7 +48,7 @@ const app = express();
 app.use(bodyParser.json());
 
 /**
- *  Generates a SegWit Bitcoin key pair, only the 'public' address
+ *  Generates a Bitcoin key pair, only the 'public' address
  *  is returned in the request. The private key is stored in a database.
  * 
  *  The private key MUST NEVER be returned in the response.
